@@ -75,8 +75,7 @@ void respondToLevel(physicalgraph.app.EventWrapper e) {
 private void initialize() {
 	state.time = [:]
 	(primary + secondary).each {physicalgraph.app.DeviceWrapper it ->
-		String dni = it.deviceNetworkId
-		state.time."$dni" = 0
+		state.time[it.deviceNetworkId] = 0
 		subscribe it, 'switch'	, respondToSwitch
 		subscribe it, 'level'	, respondToLevel
 	}
