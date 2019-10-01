@@ -20,9 +20,9 @@ definition(
 	description		: 'Switch and level changes from a device in the primary set are forwarded to all others. Changes from a device in the secondary set are forwarded only to those in the primary set',
 	category		: 'Convenience',
 	singleInstance	: false,
-	iconUrl			: "https://raw.githubusercontent.com/rtyle/mirror-sets/master/resources/icons/app.png",
-	iconX2Url		: "https://raw.githubusercontent.com/rtyle/mirror-sets/master/resources/icons/app@2x.png",
-	iconX3Url		: "https://raw.githubusercontent.com/rtyle/mirror-sets/master/resources/icons/app@3x.png",
+	iconUrl			: 'https://raw.githubusercontent.com/rtyle/mirror-sets/master/smartapps/rtyle/mirror-sets.src/app.png',
+	iconX2Url		: 'https://raw.githubusercontent.com/rtyle/mirror-sets/master/smartapps/rtyle/mirror-sets.src/app@2x.png',
+	iconX3Url		: 'https://raw.githubusercontent.com/rtyle/mirror-sets/master/smartapps/rtyle/mirror-sets.src/app@3x.png',
 )
 
 preferences {
