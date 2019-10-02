@@ -17,7 +17,7 @@ definition(
 	name			: 'Mirror Sets',
 	namespace		: 'rtyle',
 	author			: 'Ross Tyler',
-	description		: 'Switch and level changes from a device in the primary set are forwarded to all others. Changes from a device in the secondary set are forwarded only to those in the primary set',
+	description		: 'Switch and level changes from a primary device are reflected on all others. Changes from a secondary device set are reflected only on primaries',
 	category		: 'Convenience',
 	singleInstance	: false,
 	iconUrl			: 'https://raw.githubusercontent.com/rtyle/reflections/master/smartapps/rtyle/reflections.src/app.png',
