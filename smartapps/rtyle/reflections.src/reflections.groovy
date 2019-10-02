@@ -1,6 +1,6 @@
-// vim: ts=4:sw=4
+// vim: ts=4:sw=6
 /**
- *	Mirror Sets
+ *	Reflections
  *
  *	Copyright 2019 Ross Tyler
  *
@@ -14,7 +14,7 @@
  *	for the specific language governing permissions and limitations under the License.
  */
 definition(
-	name			: 'Reflections'
+	name			: 'Reflections',
 	namespace		: 'rtyle',
 	author			: 'Ross Tyler',
 	description		: 'Switch and level changes from a primary device are reflected on all others. Changes from a secondary device set are reflected only on primaries',
