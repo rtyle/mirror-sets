@@ -17,7 +17,7 @@ definition(
 	name			: 'Reflections',
 	namespace		: 'rtyle',
 	author			: 'Ross Tyler',
-	description		: 'Switch and level changes from a primary device are reflected on all others. Changes from a secondary device set are reflected only on primaries',
+	description		: 'Switch and level changes from a primary device are reflected on all others. Changes from a secondary device are reflected only on primaries',
 	category		: 'Convenience',
 	singleInstance	: false,
 	iconUrl			: 'https://raw.githubusercontent.com/rtyle/reflections/master/smartapps/rtyle/reflections.src/app.png',
